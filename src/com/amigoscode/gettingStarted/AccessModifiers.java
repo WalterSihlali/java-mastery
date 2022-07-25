@@ -1,9 +1,10 @@
-package com.amigoscode;
+package com.amigoscode.gettingStarted;
 
 public class AccessModifiers {
+
     public static void main(String[]args) {
         Lens lens = new Lens();
     }
 
-    private static class Lens{}
+     static class Lens{}
 }

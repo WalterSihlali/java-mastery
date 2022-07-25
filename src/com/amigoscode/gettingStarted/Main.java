@@ -1,4 +1,4 @@
-package com.amigoscode;
+package com.amigoscode.gettingStarted;
 
 public class Main {
 
