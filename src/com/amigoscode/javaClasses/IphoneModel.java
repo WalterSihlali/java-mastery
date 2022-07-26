@@ -1,4 +1,4 @@
-package com.amigoscode.classes;
+package com.amigoscode.javaClasses;
 
 public enum IphoneModel {
     IPHONE_7_PLUS,

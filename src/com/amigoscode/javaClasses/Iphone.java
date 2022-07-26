@@ -1,16 +1,26 @@
-package com.amigoscode.classes;
+package com.amigoscode.javaClasses;
 
-public class IphonesUsingEnum {
+public class Iphone {
 
-    private IphoneModel model;
+    private String model;
     private double price;
     private boolean isWaterResistant;
 
-    public IphoneModel getModel() {
+    public Iphone() {}
+
+    public Iphone(String model,
+                  double price,
+                  boolean isWaterResistant) {
+        this.model = model;
+        this.price = price;
+        this.isWaterResistant = isWaterResistant;
+    }
+
+    public String getModel() {
         return model;
     }
 
-    public void setModel(IphoneModel model) {
+    public void setModel(String model) {
         this.model = model;
     }
 
@@ -27,20 +37,12 @@ public class IphonesUsingEnum {
     }
 
     public void setWaterResistant(boolean waterResistant) {
-        isWaterResistant = waterResistant;
+        this.isWaterResistant = waterResistant;
     }
-
-    public IphonesUsingEnum(IphoneModel model,double price,boolean isWaterResistant ) {
-        this.model = model;
-        this.price = price;
-        this.isWaterResistant = isWaterResistant;
-    }
-
-
 
     @Override
     public String toString() {
-        return "IphonesUsingEnum{" +
+        return "Iphone{" +
                 "model='" + model + '\'' +
                 ", price=" + price +
                 ", isWaterResistant=" + isWaterResistant +

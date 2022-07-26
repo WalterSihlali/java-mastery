@@ -1,6 +1,5 @@
 package com.amigoscode.dealingWithMoney;
 
-import javax.sound.midi.Soundbank;
 import java.math.BigDecimal;
 
 public class Main {
@@ -32,10 +31,6 @@ public class Main {
         if (numberOne.compareTo(numberTwo) == -1) {
 
         }
-
-
-
-
 
 
     }

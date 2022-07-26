@@ -24,7 +24,7 @@ public class Main {
         System.out.println();
         System.out.println("Abstraction");
 
-        System.out.println("new Animal() - this is now incorrect as abstract classes cannot be instantiated");
+        System.out.println("new Animal() - this is now incorrect as abstract javaClasses cannot be instantiated");
         Animal cat = new Cat("rosie");
         dog.makeSound();
         cat.makeSound();
