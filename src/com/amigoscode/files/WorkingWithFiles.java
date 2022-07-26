@@ -42,14 +42,14 @@ public class WorkingWithFiles {
 
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
-            String contents = "";
+            String line = "";
             System.out.println("header= "+bufferedReader.readLine());;
 
             List<User> users = new ArrayList<>();
 
-            while((contents=bufferedReader.readLine()) != null) {
+            while((line=bufferedReader.readLine()) != null) {
 
-                String [] split = contents.split(",");
+                String [] split = line.split(",");
 
                 int id = Integer.parseInt(split[0]);
                 String name = split[1];
